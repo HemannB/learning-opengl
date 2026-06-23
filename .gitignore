@@ -1,0 +1,44 @@
+# Build
+build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Binários e objetos
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.app
+*.dll
+*.lib
+*.exp
+
+# Dependências locais (se usar vcpkg ou glad gerado)
+vcpkg_installed/
+glad/
+
+# Logs e misc
+*.log
+*.DS_Store
+Thumbs.db
