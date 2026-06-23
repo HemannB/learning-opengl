@@ -5,10 +5,11 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(OpenGL REQUIRED)
 
-add_executable(learning_opengl main.cpp)
+add_executable(learning_opengl main.cpp bibutil.cpp)
 
 target_link_libraries(learning_opengl
         OpenGL::GL
         GLU
         glut
+        jpeg
 )
