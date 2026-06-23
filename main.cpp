@@ -1,7 +1,9 @@
+#include <GL/glut.h>
 #include <iostream>
-int main()
-{
-    std::cout << "Hello World! I'm excited to start learning OpenGL" << std::endl;
-    return 0;
 
+int main(int argc, char** argv)
+{
+    glutInit(&argc, argv);
+    std::cout << "GLUT initialized!" << std::endl;
+    return 0;
 }
