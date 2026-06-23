@@ -5,7 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(OpenGL REQUIRED)
 
-add_executable(learning_opengl main.cpp bibutil.cpp)
+include_directories(lib/)
+
+add_executable(learning_opengl main.cpp lib/bibutil.cpp)
 
 target_link_libraries(learning_opengl
         OpenGL::GL
