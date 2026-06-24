@@ -7,9 +7,10 @@ find_package(OpenGL REQUIRED)
 
 include_directories(lib/)
 
-add_executable(learning_opengl main.cpp lib/bibutil.cpp)
+# Executável do capítulo 01
+add_executable(triangulo 01-Triangulo_/triangleInScreen.cpp lib/bibutil.cpp)
 
-target_link_libraries(learning_opengl
+target_link_libraries(triangulo
         OpenGL::GL
         GLU
         glut
