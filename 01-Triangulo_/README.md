@@ -75,4 +75,4 @@ c++ triangleInScreen.cpp -o triangleInScreen -lGL -lGLU -lglut && ./triangleInSc
 
 ## Referência
 
-Cohen, Marcelo. *OpenGL: Uma Abordagem Prática e Objetiva*. Capítulo 1.
+Cohen, Marcelo. *OpenGL: Uma Abordagem Prática e Objetiva*. Capítulo 3. First Program.
