@@ -7,12 +7,11 @@ find_package(OpenGL REQUIRED)
 
 include_directories(lib/)
 
-# Executável do capítulo 01
+#Executaveis
+# Triângulo
 add_executable(triangulo 01-Triangulo_/triangleInScreen.cpp lib/bibutil.cpp)
+target_link_libraries(triangulo OpenGL::GL GLU glut jpeg)
 
-target_link_libraries(triangulo
-        OpenGL::GL
-        GLU
-        glut
-        jpeg
-)
+# Casa
+add_executable(casa 02-Casa_/house.cpp lib/bibutil.cpp)
+target_link_libraries(casa OpenGL::GL GLU glut jpeg)
