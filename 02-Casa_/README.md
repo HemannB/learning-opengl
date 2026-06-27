@@ -1,6 +1,6 @@
 # 02 - Desenho de uma Casa
 
-Exemplo do **Capítulo 7** do livro, uma casinha composta por múltiplas primitivas OpenGL, com suporte a redimensionamento de janela mantendo proporção correta.
+Exemplo do **Capítulo 7** do livro, uma casinha composta por múltiplas primitivas OpenGL, com suporte a redimensionamento de janela mantendo proporção.
 
 ![Casa desenhada em OpenGL](prints/house.png)
 
@@ -16,7 +16,7 @@ Diferente do triângulo simples, a casa combina três primitivas distintas numa 
 | `GL_TRIANGLES` | Telhado |
 | `GL_LINES` | Divisórias da janela |
 
-### Callback de redimensionamento — `glutReshapeFunc`
+### Callback de redimensionamento - `glutReshapeFunc`
 
 O conceito mais importante deste capítulo. Registra uma função chamada automaticamente sempre que a janela é redimensionada:
 
